@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>考试成绩</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!--<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1 minimal-ui"/>-->
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css ">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/testScore.css">
+    <script src="js/flexible.js"></script>
+</head>
+<body>
+<header class="header" >
+    <a href="javascript:history.back(-1)"  class="back"></a>
+    <h2 class="title"><span>知道选校 <i class="banben">Bate</i></span>
+    </h2>
+    <a href="tel:400-012-0038"  class="phone"></a>
+    <a href="javascript:void(0)"  class="share"></a>
+</header>
+<div class="he-clear"></div>
+<div class="content">
+    <h2 class="sub-title">考试成绩</h2>
+    <section>
+        <ul class="info-list">
+            <li >
+                <input type="text" class="relName school sel" placeholder="请输入您的托福成绩">
+            </li>
+            <li>
+                <input type="text" class="relName sel" placeholder="请输入您的雅思成绩">
+            </li>
+        </ul>
+    </section>
+    <section>
+        <div class="score">
+            <p>单击添加其他考试成绩：</p>
+            <div class="test-list">
+               <div>GRE</div>
+                <div>GRE SUB</div>
+                <div>GMAT</div>
+                <div>LSAT</div>
+                <div>JLPT</div>
+                <div>SAT</div>
+                <div>SAT CR</div>
+                <div>SSAT</div>
+                <div>ACT</div>
+            </div>
+            <ul  class=" info-list score-list">
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="error">
+            <p></p>
+        </div>
+    </section>
+    <section class="goNext">
+            <input class="test" type="submit" value="下一步" >
+    </section>
+</div>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/share.js"></script>
+<script src="js/testScore.js"></script>
+</body>
+</html>

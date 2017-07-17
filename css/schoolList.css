@@ -1,0 +1,127 @@
+.content .lists li {
+    margin-top: .68rem
+}
+
+.content .lists li:first-child {
+    margin-top: .37rem
+}
+
+.info-list {
+    width: 6.5rem
+}
+
+.info-list li .item {
+    width: 6rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    margin-left: 0.5rem;
+    overflow:hidden;
+}
+
+.sch-info p {
+    width: 100%;
+    text-align:left;
+    line-height: normal;
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    font-size: .18rem;
+    color: #476593
+}
+
+.sch-info p:last-child {
+    color: #a2afc9;
+    font-size: .18rem;
+    line-height: .36rem;
+    text-align: left;
+    overflow:hidden;
+}
+
+.item img {
+    width: .71rem;
+    height: .69rem;
+    vertical-align: middle;
+    margin-right: .17rem
+}
+
+.sch-info i, .sch-info span {
+    display: inline-block
+}
+
+.sch-info i {
+    margin-left: .57rem
+}
+
+.sch-info p:last-child span {
+    margin-left: .06rem
+}
+
+.sch-info i:first-child {
+    margin-left: 0
+}
+
+.xl {
+    width: .27rem;
+    height: .17rem;
+    background: url(../images/xl.png) center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    backgrond-size: 100% 100%
+}
+
+.flag {
+    width: .15rem;
+    height: .19rem;
+    background: url(../images/flag.png) center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    backgrond-size: 100% 100%
+}
+
+.pm {
+    width: .18rem;
+    height: .18rem;
+    background: url(../images/pm.png) center center no-repeat;
+    -webkit-background-size: 100% 100%;
+    backgrond-size: 100% 100%
+}
+
+.sch-info p .sch-name {
+    color: #476593;
+    font-size: .2rem;
+    font-weight: 600;
+    margin-right: .16rem
+}
+
+[data-dpr="2"].subject {
+    font-size: .18rem;
+    color: #476593;
+    margin-left: .16rem
+}
+
+.yuyue {
+    text-align: center;
+    margin-top: .92rem;
+    margin-bottom: .77rem
+}
+
+.yuyue > a:first-child {
+    width: 44.44%;
+    height: .6rem;
+    background-color: #126efd;
+    color: #fff;
+    font-size: .32rem;
+    line-height: .6rem;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block
+}
+
+.yuyue p a:last-child {
+    font-size: .22rem;
+    color: #126efd;
+    margin-top: .12rem;
+    display: inline-block
+}

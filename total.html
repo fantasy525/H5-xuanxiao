@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留学目标</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css ">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/flexible.js"></script>
+</head>
+<body>
+<header  class="header">
+    <a href="javascript:history.back(-1)"  class="back"></a>
+    <h2 class="title"><span>知道选校 <i class="banben">Bate</i></span>
+    </h2>
+    <a href="tel:400-012-0038"  class="phone"></a>
+    <a href="javascript:void(0)"  class="share"></a>
+</header>
+<div class="he-clear"></div>
+<div class="content">
+    <h2 class="sub-title">留学目标</h2>
+    <section>
+        <ul class="info-list">
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您想去的国家/地区</option>
+                    <option value="知名外企">美国</option>
+                    <option value="知名国内企业">加拿大</option>
+                    <option value="普通外企">日本</option>
+                    <option value="普通国内企业">英联邦</option>
+                    <option value="暂无实习">欧洲</option>
+                    <option value="暂无实习">其他</option>
+                </select>
+            </li>
+            <li>
+                <input type="text" class="relName sel" placeholder="请输入您的意向专业名称">
+            </li>
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您的意向专业分类</option>
+                    <option value="商科">商科</option>
+                    <option value="理科">理科</option>
+                    <option value="工科">工科</option>
+                    <option value="文科">文科</option>
+                    <option value="公共管理">公共管理</option>
+                    <option value="法律">法律</option>
+                    <option value="医学">医学</option>
+                    <option value="艺术">艺术</option>
+                    <option value="体育">体育</option>
+                    <option value="其他">其他</option>
+                </select>
+            </li>
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您的意向学位分类</option>
+                    <option value="博士">博士</option>
+                </select>
+            </li>
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您计划入学的时间</option>
+                    <option value="2017年秋季">2017年秋季</option>
+                    <option value="2018年春季">2018年春季</option>
+                    <option value="2018年秋季">2018年秋季</option>
+                    <option value="2019春季">2019春季</option>
+                    <option value="未确定">未确定</option>
+                </select>
+            </li>
+            <li class="li-tip">第二意向专业(选填) : </li>
+            <li class="mar-t">
+                <input type="text" class="relName " placeholder="请输入您的意向专业名称">
+            </li>
+            <li>
+                <select name="" id="" class="nianji ">
+                    <option style="font-size:.16rem;" value="" selected>请选择您的意向专业分类</option>
+                    <option value="商科">商科</option>
+                    <option value="理科">理科</option>
+                    <option value="工科">工科</option>
+                    <option value="文科">文科</option>
+                    <option value="公共管理">公共管理</option>
+                    <option value="法律">法律</option>
+                    <option value="医学">医学</option>
+                    <option value="艺术">艺术</option>
+                    <option value="体育">体育</option>
+                    <option value="其他">其他</option>
+                </select>
+            </li>
+            <li class="error">
+                <p></p>
+            </li>
+            <li class="next inp"><input type="submit" class="test " value="下一步"></li>
+        </ul>
+    </section>
+
+</div>
+
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/share.js"></script>
+<script src="js/checkSelect.js"></script>
+<script>
+    $('select').on('change',function(){
+        $(this).css({
+            "fontSize":".24rem",
+            "color":"#596a85"
+        })
+    })
+    var chSel=new CheckSelect();
+    chSel.check($('.sel'),$('.test'),"schoolList.html");
+</script>
+</body>
+</html>

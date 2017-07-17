@@ -1,0 +1,13 @@
+header{position:fixed;width:100%;z-index:99999;height:.82rem;background:#3f8cff}
+header a{position:absolute;display:inline-block}
+.back{left:.28rem;top:.28rem;width:.14rem;height:.27rem;background:url(../images/back.png) 0 0 no-repeat;-webkit-background-size:100% 100%;background-size:100% 100%}
+.title{height:.82rem;line-height:.82rem;text-align:center;color:#fff;font-size:.36rem}
+[data-dpr="3"] .title{font-size:72px}
+.title span{position:relative}
+.title .banben{width:48px;height:21px;background-color:#fff;color:#3f8cff;text-align:center;line-height:19px;display:inline-block;font-size:16px;position:absolute;right:-59px;top:-5px;border-radius:4px}
+[data-dpr="1"] .title .banben{width:32px;height:13px;background-color:#fff;color:#3f8cff;text-align:center;line-height:13px;display:inline-block;font-size:12px;position:absolute;right:-37px;top:-5px;border-radius:4px}
+[data-dpr="3"] .title .banben{width:96px;height:42px;background-color:#fff;color:#3f8cff;text-align:center;line-height:38px;display:inline-block;font-size:32px;position:absolute;right:-108px;top:-10px;border-radius:8px}
+.phone{right:.81rem;top:.24rem;width:.35rem;height:.36rem;background:url(../images/phone.png) 0 0 no-repeat;-webkit-background-size:100% 100%;background-size:100% 100%}
+.share{right:.29rem;top:.24rem;width:.3rem;height:.39rem;background:url(../images/shares.png) 0 0 no-repeat;-webkit-background-size:100% 100%;background-size:100% 100%}
+.he-clear{height:.82rem}
+

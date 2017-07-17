@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>软实力</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css ">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/flexible.js"></script>
+</head>
+<body>
+<header class="header">
+    <a href="javascript:history.back(-1)"  class="back"></a>
+    <h2 class="title"><span>知道选校 <i class="banben">Bate</i></span>
+    </h2>
+    <a href="tel:400-012-0038"  class="phone"></a>
+    <a href="javascript:void(0)"  class="share"></a>
+</header>
+<div class="he-clear"></div>
+<div class="content">
+    <h2 class="sub-title">软实力</h2>
+    <section>
+        <ul class="info-list">
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您的实习经历</option>
+                    <option value="知名外企">知名外企</option>
+                    <option value="知名国内企业">知名国内企业</option>
+                    <option value="普通外企">普通外企</option>
+                    <option value="普通国内企业">普通国内企业</option>
+                    <option value="暂无实习">暂无实习</option>
+                </select>
+            </li>
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您的科研专利经历</option>
+                    <option value="海外科研实验室">海外科研实验室</option>
+                    <option value="拥有专利">拥有专利</option>
+                    <option value="有论文发表或科研报告">有论文发表或科研报告</option>
+                    <option value="科研试验营">科研试验营</option>
+                    <option value="暂无科研经历">暂无科研经历</option>
+                </select>
+            </li>
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您的赛事奖项</option>
+                    <option value="世界级">世界级</option>
+                    <option value="中国国家级">中国国家级</option>
+                    <option value="国外省/州级">国外省/州级</option>
+                    <option value="国内地方级">国内地方级</option>
+                    <option value="国内校级">国内校级</option>
+                    <option value="暂无竞赛奖项经历">暂无竞赛奖项经历</option>
+                </select>
+            </li>
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您的志愿者经历</option>
+                    <option value="世界级">世界级</option>
+                    <option value="国家级">国家级</option>
+                    <option value="地方级">地方级</option>
+                    <option value="校级">校级</option>
+                    <option value="暂无志愿者经历">暂无志愿者经历</option>
+                </select>
+            </li>
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您的海外交流经历</option>
+                    <option value="校友推荐">校友推荐</option>
+                    <option value="教授面试">教授面试</option>
+                    <option value="海外访校">海外访校</option>
+                    <option value="暂无海外交流经历">暂无海外交流经历</option>
+                </select>
+            </li>
+            <li>
+                <select name="" id="" class="nianji sel">
+                    <option style="font-size:.16rem;" value="" selected>请选择您能得到的推荐信</option>
+                    <option value="校友推荐">国外大学教授</option>
+                    <option value="教授面试">国外高中老师</option>
+                    <option value="海外访校">国内大学教授</option>
+                    <option value="国内知名高中老师">国内知名高中老师</option>
+                    <option value="国内普通老师">国内普通老师</option>
+                    <option value="暂未联系">暂未联系</option>
+                </select>
+            </li>
+            <li class="error">
+                <p></p>
+            </li>
+            <li class="next inp">
+                <input class="test" type="submit" value="下一步" >
+            </li>
+        </ul>
+    </section>
+
+</div>
+
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/checkSelect.js"></script>
+<script src="js/share.js"></script>
+<script>
+    $('select').on('change',function(){
+        $(this).css({
+            "fontSize":".24rem",
+            "color":"#596a85"
+        })
+    })
+    var chSel=new CheckSelect();
+    chSel.check($('.sel'),$('.test'),"total.html")
+</script>
+</body>
+</html>

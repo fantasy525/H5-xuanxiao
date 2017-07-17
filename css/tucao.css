@@ -1,0 +1,9 @@
+.con{width:5.58rem;margin:0 auto;padding-top:.38rem}
+.result span{width:1.31rem;height:.58rem;line-height:.58rem;font-size:.2rem;color:#99b1d6;text-align:center;border:1px solid #99b1d6;border-radius:3px;display:inline-block}
+.result span:last-child{margin-left:.09rem}
+.result .selected{background-color:#99b1d6;color:#fff}
+.con .text{width:100%;height:4rem;margin-top:.18rem;border:1px solid #a8b7ce;outline:0;font-size:.2rem;color:#99b1d6}
+.btn{width:3.9rem;margin:2.47rem auto 0.5rem}
+.btn input{height:.6rem;line-height:.6rem;color:#fff;font-size:.32rem;text-align:center;border:none;outline:0}
+.clear{background-color:#95acc8;padding:0 .33rem 0}
+.submit{background-color:#126efd;padding:0 .57rem 0;border:none;margin-left:.18rem}

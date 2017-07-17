@@ -1,0 +1,97 @@
+.score {
+    margin-top: .38rem;
+    border-top: 1px solid #e2e7f1;
+    min-height: 2rem
+}
+
+.score > p {
+    width: 5.58rem;
+    margin: .34rem auto 0;
+    font-size: .2rem;
+    color: #95acc8
+}
+
+.test-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    width: 4.58rem;
+    margin: 0 auto 0
+}
+
+.test-list div {
+    width: 1.32rem;
+    height: .48rem;
+    text-align: center;
+    line-height: .48rem;
+    font-size: .2rem;
+    color: #95acc8;
+    border: 1px solid #95acc8;
+    margin-top: .1rem;
+    overflow: hidden
+}
+
+.test-list .test-select {
+    color: #fff;
+    background-color: #95acc8
+}
+
+.score-list li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 5.58rem;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    text-align: left
+}
+
+.score-list li input {
+    flex: 1;
+    -webkit-box-flex: 1;
+    vertical-align: middle;
+    margin-left: .1rem
+}
+
+.score-list li label {
+    width: .84rem;
+    font-size: .2rem;
+    color: #95acc8;
+    display: inline-block
+}
+
+.goNext {
+    text-align: center
+}
+
+.goNext .test {
+    width: 2.6rem;
+    height: .6rem;
+    line-height: .6rem;
+    background-color: #126efd;
+    text-align: center;
+    color: #fff;
+    font-size: .32rem;
+    border: none;
+    border-radius: 3px
+}
+
+[data-dpr="3"] .goNext .test {
+    font-size: 60px
+}
+
+.error {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: .22rem;
+    color: #ff2f06;
+    height: .34rem
+}

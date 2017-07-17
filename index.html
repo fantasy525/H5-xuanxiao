@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1 minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>系统说明</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <script src="js/flexible.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css ">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+<div class="shiyong">
+    <a href="baseInfo.html"  class="a1" >马上试用</a>
+
+</div>
+<p class="tip"><a href="javascript:void(0)"  class="a2">好消息当然分享给小伙伴们 >></a></p>
+<div class="footText">
+<p class="copyright">知道选校相关数据全部来自于天道留学内部真实案例数据，最终解释权归天道所有 </p>
+    <p class="sys">天道智能选校系统beta版</p>
+</div>
+
+<div class="share">
+
+    <div class="shareIcon">
+        <div class="d_box">
+            <div class="bdsharebuttonbox">
+                <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"><p>微信</p></a>
+                <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"><p>朋友圈</p></a>
+                <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"><p>QQ好友</p></a>
+                <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"><p>QQ空间</p></a>
+                <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"><p>新浪微博</p></a>
+                <a href="#" class="bds_copy" id="bds_copy" data-cmd="" title="分享到复制网址"><p>复制网址</p></a>
+                <!-- 	<a href="#" class="bds_more" data-cmd="more"></a> -->
+            </div>
+            <script>
+                window._bd_share_config={
+                    "common":{
+                        "bdSnsKey":{},
+                        "bdText":"",
+                        "bdMini":"2",
+                        "bdMiniList":false,
+                        "bdPic":"",
+                        "bdStyle":"1",
+                        "bdSize":"32"
+                    },
+                    "share":{
+                        "bdSize":32
+                    }
+                };
+                with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script>
+            (function($){
+                $(".a2").on("click",function(e){
+                    e.stopPropagation();
+                    if($(".share").is(":visible")){
+                        $(".share").slideUp(250);
+                        $(this).css("color","#fff");
+                    }else{
+                        $(".share").slideDown(250);
+                        $(this).css("color","#fff661");
+                    }
+                });
+                $('body').click(function(){
+                    if(event.target.nodeName=="BODY"){
+                        if($(".share").is(":visible")){
+                            $(".share").slideUp(250);
+                            $(this).css("color","#fff");
+                        }
+                    }
+                })
+            })(jQuery);
+</script>
+</body>
+</html>
